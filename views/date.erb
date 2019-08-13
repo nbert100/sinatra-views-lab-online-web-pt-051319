@@ -3,5 +3,5 @@
   <h1>Today</h1>
   <%A
   <p>The date is <%= Time.now.strftime(%A,%B%d,%Y) %></p>
-  Time.now.strptime(Time.now.strftime(%A, %B %d, %Y)
+  Time.now.strptime(date, format, now=self.now)
 </html>
